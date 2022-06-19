@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&family=Source+Code+Pro:wght@300&family=Space+Mono&display=swap');
+
+.container{
+  height: 100vh;
+  background: black;
+}
+
+.firstPage{
+  width: 75vw;
+  height: 50vh;
+
+  text-align: center;
+
+  margin: 25vh auto;
+}
+
+.firstPage h1{
+  font-size: 150px;
+  font-family: 'Dancing Script';
+}
+
+.secondPage{
+  width: 75vw;
+  height: 50vh;
+
+  text-align: center;
+
+  margin: 25vh auto;
+}
+
+.rightQuote{
+  width: 30vw;
+  height: fit-content;
+
+  text-align: left;
+
+  margin: 25vh 10vw;
+}
+
+.leftQuote{
+  width: 30vw;
+  height: fit-content;
+
+  text-align: right;
+
+  margin: 25vh 10vw 25vh 60vw;
+}
+
+.endQuote{
+  color: white;
+
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 1200px){
+  .firstPage h1{
+    font-size: 72px;
+    font-family: 'Dancing Script';
+  }
+
+  .secondPage h1{
+    font-size: 3vh;
+  }
+
+  .rightQuote h1{
+    font-size: 2.1vh;
+  }
+
+  .leftQuote h1{
+    font-size: 2.1vh;
+  }
+
+  .endQuote h1{
+    font-size: 3vh;
+  }
+}
